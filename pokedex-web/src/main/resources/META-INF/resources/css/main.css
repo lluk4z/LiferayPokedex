@@ -1,0 +1,20 @@
+.poke-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ff5858;
+    justify-self: center;
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.poke-image {
+    background: #c3c0c0;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 50px;
+    border: 10px solid gray;
+}
