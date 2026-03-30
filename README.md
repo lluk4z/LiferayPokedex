@@ -6,6 +6,11 @@ Individual Development Plan (PDI)
 Este documento descreve a arquitetura e o fluxo de funcionamento de uma Pokédex implementada como um **Portlet MVC no Liferay DXP**, explicando claramente a relação entre **JSP**, **MVCActionCommand**, **MVCRenderCommand** e a classe utilitária **PokedexClient**.
 
 ---
+Para rodar
+
+`docker run -it -m 8g -p 8080:8080 liferay/portal:7.4.3.132-ga132`
+
+`./gradlew deploy -Ddeploy.docker.container.id=$(docker ps -lq)`
 
 ## Visão Geral da Arquitetura
 
